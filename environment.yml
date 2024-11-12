@@ -1,0 +1,20 @@
+name: echr_foe
+channels: 
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - fire
+    - pytest
+    - pandas == 2.2.2
+    - matplotlib
+    - python-dotenv
+    - requests
+    - bs4
+    - nltk
+    - spacy
+    - gensim
+    - pyldavis
+    - seaborn
+    - wordcloud
